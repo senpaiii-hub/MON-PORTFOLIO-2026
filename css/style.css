@@ -158,7 +158,6 @@ a.active+::after {
     border-radius: 2px;
 
 }
-
 .apropos p{
     margin-bottom: 2rem;
     color: var(--gris-fonce);
