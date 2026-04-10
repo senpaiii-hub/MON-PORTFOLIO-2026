@@ -3,80 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mon portfolio</title>
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="CSS/Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
 <body>
     <header>
         <div>
-            <a href="">mon portfolio</a>
+            <a href="">Mon Portfolio</a>
         </div>
         <nav>
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="projets.html">Projets</a></li>
-                <li><a href="passion.html">Passions</a></li>
-                <li><a href="divertissement.html">Divertissement</a></li>
-                <li><a href="contact.html"class="active">Contact</a></li>
-            </ul>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="projets.html">Projets</a></li>
+            <li><a href="passion.html">Passions</a></li>
+            <li><a href="divertissement.html">Divertissement</a></li>
+            <li><a href="contact.html"class="active">Contact</a></li>
+        </ul>    
         </nav>
     </header>
     <main>
-         <main>
-        <section class="contact-page">
-            <div class="contact-intro">
-                <h1>Contactez-moi</h1>
-                <div class="underline"></div>
-                <p>Basé à <strong>Lubumbashi</strong>, je suis disponible pour vos projets web et design.</p>
-            </div>
+  <section class="contact-container"> 
+    <h2>Contactez-moi</h2> 
+     
+    <div class="contact-content"> 
+      <div class="contact-info"> 
+        <h3>Mes coordonnées</h3> 
+        <p><i class="fa-solid fa-location-dot"></i> Basé à : Lubumbashi, RDC</p> 
+        <p><i class="fa-solid fa-phone"></i> +243 998110065</p> 
+         
+        <div class="social-apps"> 
+          <a href="https://wa.me/0815155922" target="_blank" class="app-link whatsapp"> 
+            <i class="fa-brands fa-whatsapp"></i> WhatsApp 
+          </a> 
+          <a href="https://t.me/+243998110065" target="_blank" class="app-link telegram"> 
+            <i class="fa-brands fa-telegram"></i> Telegram 
+          </a> 
+        </div> 
+      </div> 
+ 
+      <form action="#" method="POST" class="contact-form"> 
+        <div class="form-group"> 
+          <label for="name">Nom complet</label> 
+          <input type="text" id="name" name="name" placeholder="Votre nom" required> 
+        </div> 
+        <div class="form-group"> 
+          <label for="phone">Téléphone</label> 
+          <input type="tel" id="phone" name="phone" placeholder="Votre numéro" required> 
+        </div> 
+        <button type="submit" class="btn-submit">Envoyer</button> 
+      </form> 
+    </div> 
+  </section> 
+    </main> 
+<footer>
+    <p>&copy;2026 barthelemy lokamba. Tous droits réservés.</p> 
+    <div>
+        <a href=""><i class="fa-brands fa-github"></i></a>
+        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+    </div>
+     
+</footer>     
+</body> 
+</html> 
+ 
 
-            <div class="contact-grid">
-                <div class="contact-details">
-                    <div class="detail-box">
-                        <i class="fa-solid fa-location-dot"></i>
-                        <div>
-                            <h3>Localisation</h3>
-                            <p>Lubumbashi, Haut-Katanga, RDC</p>
-                        </div>
-                    </div>
-                    <div class="detail-box">
-                        <i class="fa-solid fa-envelope"></i>
-                        <div>
-                            <h3>Email</h3>
-                            <p>barthelemylokamba20@icloud.com</p>
-                        </div>
-                    </div>
-                    <div class="detail-box">
-                        <i class="fa-solid fa-graduation-cap"></i>
-                        <div>
-                            <h3>Université</h3>
-                            <p>Étudiant à l'UDBL / SALAMA</p>
-                        </div>
-                    </div>
-                </div>
-
-                <form action="#" method="POST" class="contact-form">
-                    <input type="text" name="nom" placeholder="Votre nom complet" required>
-                    <input type="email" name="email" placeholder="Votre adresse email" required>
-                    <input type="text" name="sujet" placeholder="Sujet de votre message">
-                    <textarea name="message" rows="6" placeholder="Comment puis-je vous aider ?" required></textarea>
-                    <button type="submit" class="hero-btn-style">Envoyer le message</button>
-                </form>
-            </div>
-        </section>
-    </main>
-
-    </main>
-    <footer>2026 BARTHELEMY, Tous droits réservés
-        <div>
-            <a href=""><i class="fa-brands fa-github"></i></a>
-            <a href=""><i class="fa-brands fa-linkedin"></i></a>
-            <a href=""><i class="fa-brands fa-x-twitter"></i></a>
-        </div>
-    </footer>
-</body>
-</html

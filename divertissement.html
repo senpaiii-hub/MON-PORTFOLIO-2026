@@ -1,39 +1,134 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mon portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Divertissement - Mon portfolio</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div>
-            <a href="">mon portfolio</a>
+            <a href="index.html">Mon portfolio</a>
         </div>
         <nav>
             <ul>
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="projets.html">Projets</a></li>
                 <li><a href="passion.html">Passions</a></li>
-                <li><a href="divertissement.html"class="active">Divertissement</a></li>
+                <li><a href="divertissement.html" class="active">Divertissement</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
-        <h1>voici mon divertissement</h1>
+        <section class="hero">
+            <div>
+                <h1>Mes moments de détente</h1>
+                <p>Découvrez comment je me divertis et recharge mes batteries</p>
+            </div>
+        </section>
+
+        <section class="divertissement-section">
+            <div class="container">
+                <h2>Mes divertissements préférés</h2>
+                <div class="underline"></div>
+                
+                <div class="divertissement-grid">
+                    <div class="divertissement-card">
+                        <div class="card-icon">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <h3>Jeux vidéo</h3>
+                        <p>Passionné de gaming, je joue à des jeux comme League of Legends, Valorant et des RPG épiques. Les compétitions en ligne me tiennent en haleine !</p>
+                        <div class="tags">
+                            <span class="tag">Multiplayer</span>
+                            <span class="tag">RPG</span>
+                            <span class="tag">Esport</span>
+                        </div>
+                    </div>
+
+                    <div class="divertissement-card">
+                        <div class="card-icon">
+                            <i class="fas fa-film"></i>
+                        </div>
+                        <h3>Cinéma & Séries</h3>
+                        <p>Fan de Marvel, Star Wars et des séries comme The Boys ou Arcane. Je dévore les blockbusters et les séries d'animation.</p>
+                        <div class="tags">
+                            <span class="tag">Marvel</span>
+                            <span class="tag">Sci-Fi</span>
+                            <span class="tag">Animation</span>
+                        </div>
+                    </div>
+
+                    <div class="divertissement-card">
+                        <div class="card-icon">
+                            <i class="fas fa-music"></i>
+                        </div>
+                        <h3>Musique</h3>
+                        <p>Écoute variée : rap français, électro, rock et OST de jeux vidéo. Spotify est mon meilleur ami !</p>
+                        <div class="tags">
+                            <span class="tag">Rap</span>
+                            <span class="tag">Électro</span>
+                            <span class="tag">OST</span>
+                        </div>
+                    </div>
+
+                    <div class="divertissement-card">
+                        <div class="card-icon">
+                            <i class="fas fa-dumbbell"></i>
+                        </div>
+                        <h3>Sport</h3>
+                        <p>Musculation 4x/semaine et foot avec les amis. Le sport c'est ma soupape de décompression !</p>
+                        <div class="tags">
+                            <span class="tag">Musculation</span>
+                            <span class="tag">Football</span>
+                            <span class="tag">Cardio</span>
+                        </div>
+                    </div>
+
+                    <div class="divertissement-card">
+                        <div class="card-icon">
+                            <i class="fas fa-book-open"></i>
+                        </div>
+                        <h3>Lecture</h3>
+                        <p>Fantasy, science-fiction et mangas. J'adore me perdre dans des univers imaginaires.</p>
+                        <div class="tags">
+                            <span class="tag">Fantasy</span>
+                            <span class="tag">Sci-Fi</span>
+                            <span class="tag">Manga</span>
+                        </div>
+                    </div>
+
+                    <div class="divertissement-card">
+                        <div class="card-icon">
+                            <i class="fas fa-headphones"></i>
+                        </div>
+                        <h3>Podcasts</h3>
+                        <p>Tech, gaming et développement personnel. Parfait pour les trajets ou les séances de sport.</p>
+                        <div class="tags">
+                            <span class="tag">Tech</span>
+                            <span class="tag">Gaming</span>
+                            <span class="tag">Développement</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer>2026 BARTHELEMY, Tous droits réservés
-        <div>
+
+    <footer>
+        <p>&copy; 2026 Barthelemy. Tous droits réservés.</p>
+        <div class="social-links">
             <a href=""><i class="fa-brands fa-github"></i></a>
-            <a href=""><i class="fa-brands fa-linkedin"></i></a>
             <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
         </div>
     </footer>
 </body>
-</html
+</html>

@@ -1,39 +1,159 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mon portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Passions - Mon portfolio</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div>
-            <a href="">mon portfolio</a>
+            <a href="index.html">Mon portfolio</a>
         </div>
         <nav>
             <ul>
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="projets.html">Projets</a></li>
-                <li><a href="passion.html"class="active">Passions</a></li>
+                <li><a href="passion.html" class="active">Passions</a></li>
                 <li><a href="divertissement.html">Divertissement</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
-        <h1>voici mes passion</h1>
+        <section class="hero">
+            <div>
+                <h1>Mes grandes passions</h1>
+                <p>Informatique et Médecine : deux univers qui me passionnent et que j'aime explorer en profondeur</p>
+            </div>
+        </section>
+
+        <section class="passions-section">
+            <div class="container">
+                <h2>Ce qui me fait vibrer</h2>
+                <div class="underline"></div>
+                
+                <div class="passions-grid">
+                    <!-- Passion Informatique -->
+                    <div class="passion-card featured">
+                        <div class="card-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>🔬 Informatique</h3>
+                        <p>Passionné par le développement web, l'IA, la cybersécurité et les nouvelles technologies. Créer des solutions innovantes qui changent la vie des gens est ma plus grande motivation !</p>
+                        <div class="passion-stats">
+                            <div class="stat">
+                                <span class="stat-number">+5 ans</span>
+                                <span>expérience</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">100+</span>
+                                <span>projets</span>
+                            </div>
+                        </div>
+                        <div class="tags">
+                            <span class="tag">Web Dev</span>
+                            <span class="tag">IA/ML</span>
+                            <span class="tag">Cybersec</span>
+                            <span class="tag">DevOps</span>
+                        </div>
+                    </div>
+
+                    <!-- Passion Médecine -->
+                    <div class="passion-card featured">
+                        <div class="card-icon">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <h3>🏥 Médecine</h3>
+                        <p>Fasciné par l'anatomie humaine, la biologie et les innovations médicales. Rêve de créer des applications de santé connectée et d'IA médicale pour révolutionner les soins.</p>
+                        <div class="passion-stats">
+                            <div class="stat">
+                                <span class="stat-number">Certifié</span>
+                                <span>premier secours</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">En cours</span>
+                                <span>études médicales</span>
+                            </div>
+                        </div>
+                        <div class="tags">
+                            <span class="tag">Santé</span>
+                            <span class="tag">Biologie</span>
+                            <span class="tag">IA Médicale</span>
+                            <span class="tag">eHealth</span>
+                        </div>
+                    </div>
+
+                    <!-- Autres passions liées -->
+                    <div class="passion-card">
+                        <div class="card-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>HealthTech</h3>
+                        <p>Fusion parfaite entre mes deux passions : développer des applications médicales intelligentes avec IA et IoT pour la santé connectée.</p>
+                        <div class="tags">
+                            <span class="tag">IoT</span>
+                            <span class="tag">Wearables</span>
+                            <span class="tag">Big Data</span>
+                        </div>
+                    </div>
+
+                    <div class="passion-card">
+                        <div class="card-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h3>IA & Machine Learning</h3>
+                        <p>Créer des algorithmes qui apprennent et prédisent. Applications en diagnostic médical et optimisation de code.</p>
+                        <div class="tags">
+                            <span class="tag">TensorFlow</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">Deep Learning</span>
+                        </div>
+                    </div>
+
+                    <div class="passion-card">
+                        <div class="card-icon">
+                            <i class="fas fa-dna"></i>
+                        </div>
+                        <h3>Bioinformatique</h3>
+                        <p>Analyser les données génétiques et biologiques avec des algorithmes puissants pour faire avancer la recherche médicale.</p>
+                        <div class="tags">
+                            <span class="tag">Génétique</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">Data Science</span>
+                        </div>
+                    </div>
+
+                    <div class="passion-card">
+                        <div class="card-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Cybersécurité Médicale</h3>
+                        <p>Protéger les données de santé sensibles avec des solutions de chiffrement et de sécurité avancées.</p>
+                        <div class="tags">
+                            <span class="tag">Blockchain</span>
+                            <span class="tag">Encryption</span>
+                            <span class="tag">HIPAA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer>2026 BARTHELEMY, Tous droits réservés
-        <div>
+
+    <footer>
+        <p>&copy; 2026 Barthelemy Lokamba. Tous droits réservés.</p>
+        <div class="social-links">
             <a href=""><i class="fa-brands fa-github"></i></a>
-            <a href=""><i class="fa-brands fa-linkedin"></i></a>
             <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
         </div>
     </footer>
 </body>
-</html
+</html>
